@@ -2,15 +2,15 @@
 <p>
     <%= link_to "Create New Article", new_article_path %>
 </p>
-<table>
-    <tr>
+<table class=" container table is-striped is-hoverable">
+    <tr class="thead">
         <th>Title</th>
         <th>Description</th>
         <th></th>
         <th></th>
     </tr>
     <% @articles.each do |article| %>
-    <tr>
+    <tr class="tbody">
         <td><%= article.title %></td>
         <td><%= article.description %></td>
         <td><%= link_to "Edit", edit_article_path(article.id) %></td>

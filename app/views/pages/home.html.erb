@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>Alpha Blog</title>
 
 </head>
 <body>
 
-<h2>CSS Layout Float</h2>
-<h2><%= link_to "Alpha Blog", articles_path %></h2>
-<h2><%= link_to 'About', about_path %></h2>
+<section class="hero hero-with-bg is-fullheight-with-navbar">
+  <div class="hero-body">
+    <div class="container" id="homepagehero">
+      <h1 class="title is-1 is-white">
+        ALPHA BLOG
+      </h1>
+      <h2 class="subtitle">
+        <%= link_to "View Articles", articles_path, class: "button is-primary is-large" %>
+      </h2>
+    </div>
+  </div>
+</section>
 
 </body>
 </html>

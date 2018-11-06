@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+#logo {
+    color: white;
+    font-size: 1.7em;
+    float: left;
+}
+
+#logo:hover {
+    color: white;
+}
+
+#homepagehero {
+    text-align: center;
+}
+
+.hero-with-bg {
+    background-image: url('http://www.uniwallpaper.com/static/images/Wallpapers-for-Background-HD-Wallpaper-1080x607.jpg');
+    background-size: cover;
+}
+
+.is-white {
+    color:white;
+}
+
+.is-center{
+    text-align: center;
+}
